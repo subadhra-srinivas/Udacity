@@ -1,4 +1,4 @@
-**Subadhra's Movie Collections**
+#Subadhra's Movie Collections
  
 To run this program and see a list of Subadhra's favorite movies.
  
@@ -13,9 +13,9 @@ https://www.python.org
 **Clone the Repository:**
  
 Once you are sure Python 2.7 is installed correctly execute the following:
-$git clone https://github.com/subadhra-srinivas/Udacity_Movie_Trailer_Website 
+$git clone https://github.com/subadhra-srinivas/Udacity 
 
-$cd Udacity_Movie_Trailer_Website
+$cd Fsdn/Movie_Trailer_Website
 
 **Required files:**
  
