@@ -1,0 +1,71 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=maki);
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 200;
+}
+hr {
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+}
+.text-muted {
+    color: #7d97ad;
+}
+.text-blue {
+    color: #2d3c49;
+    font-weight: 200
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 30px;
+}
+
+.title-logo {
+    margin-top: 20px;
+    border-radius: 50%
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+/* maki */
+[class*="maki-"]:before {
+  color: black;
+  display: inline-block;
+  font-family: 'maki', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+@media screen and (max-width: 400px){
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .title-logo {
+        display: block;
+        margin: 0 auto;
+    }
+}
